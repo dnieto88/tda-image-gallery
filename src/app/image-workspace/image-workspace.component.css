@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-container {
+  background-color: #EEE;
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}

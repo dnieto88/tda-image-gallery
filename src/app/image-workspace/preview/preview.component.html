@@ -1,0 +1,11 @@
+<p *ngIf="!tdaImage.path">No Image Loaded Yet!</p>
+<div class="preview-left">
+  <img [src]="tdaImage.path" [style.transform]="'rotate(' + tdaImage.rotationDegrees + 'deg)'">
+</div>
+<div class="preview-right">
+  <button type="button" (click)="rotateImage(tdaImage)">Rotate</button>
+  <app-comments [comments]="tdaImage.comments"></app-comments>
+  <textarea [(ngModel)]="newComment" rows="5" cols="40"></textarea>
+  <button (click)="submitComment(newComment)" type="button">Submit</button>
+</div>
+

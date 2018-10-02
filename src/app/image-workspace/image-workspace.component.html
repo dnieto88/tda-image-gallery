@@ -1,0 +1,8 @@
+<div class="preview-container">
+  <router-outlet></router-outlet>
+</div>
+<div class="thumbnails-container">
+  <app-thumbnail
+    *ngFor="let thumbnail of thumbnails | async"
+    [tdaImage]="thumbnail"></app-thumbnail>
+</div>

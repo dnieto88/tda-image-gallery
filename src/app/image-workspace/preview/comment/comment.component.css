@@ -1,0 +1,18 @@
+:host {
+ padding: 8px;
+}
+
+.comment-date {
+  color: grey;
+  font-weight: 300;
+}
+.comment-user {
+  color: blue;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.comment-content {
+  display: block;
+  font-weight: 500;
+}

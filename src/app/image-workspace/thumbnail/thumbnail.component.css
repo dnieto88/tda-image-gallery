@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  margin: 8px;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 250px;
+}
+img {
+  border: solid 2px lightblue;
+  display: flex;
+  max-height: 200px;
+}
